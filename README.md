@@ -19,3 +19,6 @@ django-admin startapp api
 4. Task, Post 등의 모델을 설정
 
 5. 각 모델의 View와 Serializer를 설정 후 urlpattern으로 등록
+
+6. 만들어진 REST api를 헤로쿠에 deploy ([해당 페이지](https://nextjs-api-harry.herokuapp.com/api))
+*주의: 무료 계정이므로 장시간 미사용 시 sleep 처리되고 이후에 다시 접속하려면 30초 정도의 delay가 필요합니다
